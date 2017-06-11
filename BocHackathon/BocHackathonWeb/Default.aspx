@@ -2,11 +2,9 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="jumbotron">
-        <h1>Welcome To Save Me!</h1>
-   </div>
+   
 
-    <div class="row" style="margin-left:150px">
+    <div class="row" style="margin-left:350px">
         <div class="col-md-4">
             <h2>Please Login</h2>
               <br /> 

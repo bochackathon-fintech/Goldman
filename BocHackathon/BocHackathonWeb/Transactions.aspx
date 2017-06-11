@@ -4,7 +4,7 @@
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-   <div>
+   <div style="margin-left:150px;margin-top:50px">
            <telerik:RadHtmlChart runat="server" ID="LineChart" Width="800" Height="500" Transitions="true" Skin="Silk">
             <Appearance>
                 <FillStyle BackgroundColor="Transparent"></FillStyle>

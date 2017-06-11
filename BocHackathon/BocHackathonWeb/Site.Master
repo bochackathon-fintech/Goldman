@@ -73,12 +73,12 @@
                 </div>
             </div>
         </div>--%>
-        <div class="container body-content">
+        <div class="container body-content" style="background-color:#aeeaae">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Save Me! By Goldman Solution And Services</p>
+                <p>&copy; <%: DateTime.Now.Year %> - By Goldman Solution And Services</p>
             </footer>
         </div>
     </form>

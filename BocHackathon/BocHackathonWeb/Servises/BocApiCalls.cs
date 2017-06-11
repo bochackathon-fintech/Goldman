@@ -14,7 +14,7 @@ namespace BocHackathonWeb.Servises
         public static async Task<Banks> GetBanksAsync()
         {
             string uri = "http://api.bocapi.net/v1/api/banks?subscription-key=";
-            string subscription_id = "c615c66de7cb4d6e8d29602f55e5d54a";
+            string subscription_id = "9827d6c7a50d4bbdb449d53ac5d02b7a";
             uri = uri + subscription_id;
             Banks banksresults = new Banks();
             HttpClient client = new HttpClient();
@@ -41,7 +41,7 @@ namespace BocHackathonWeb.Servises
         public static async Task<List<Transactions>> GetTransactionsAsync()
         {
             string uri = "http://api.bocapi.net/v1/api/banks/bda8eb884efcef7082792d45/accounts/0be71dcb5097ab240da23999/5710bba5d42604e4072d1e92/transactions/?subscription-key=";
-            string subscription_id = "c615c66de7cb4d6e8d29602f55e5d54a";
+            string subscription_id = "9827d6c7a50d4bbdb449d53ac5d02b7a";
             uri = uri + subscription_id;
             List<Transactions> banksresults = new List<Transactions>();
             HttpClient client = new HttpClient();
